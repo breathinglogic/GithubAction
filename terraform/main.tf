@@ -10,7 +10,7 @@ terraform {
     resource_group_name  = "Demo-Terraform-Core-Backend-RG"
     storage_account_name = "tfcorebackendsa6905"
     container_name       = "tfstate"
-    key                  = "demo.terraform.tfstate"
+    key                  = "tf-core-backend-kv6905"
   }
 }
 
